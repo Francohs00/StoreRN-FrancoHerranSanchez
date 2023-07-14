@@ -12,10 +12,10 @@ const categoryDefault = {
 };
 export default function App() {
   const [loaded] = useFonts({
-    [FONTS.regular]: require('../assets/fonts/Inter-Regular.ttf'),
-    [FONTS.bold]: require('../assets/fonts/Inter-Bold.ttf'),
-    [FONTS.medium]: require('../assets/fonts/Inter-Medium.ttf'),
-    [FONTS.light]: require('../assets/fonts/Inter-Light.ttf'),
+    [FONTS.regular]: require('../assets/fonts/Poppins-Regular.ttf'),
+    [FONTS.bold]: require('../assets/fonts/Poppins-Bold.ttf'),
+    [FONTS.medium]: require('../assets/fonts/Poppins-Medium.ttf'),
+    [FONTS.light]: require('../assets/fonts/Poppins-Light.ttf'),
   });
   const [isCategorySelected, setIsCategorySelected] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState(categoryDefault);
@@ -23,7 +23,7 @@ export default function App() {
   const headerTitle = isCategorySelected ? 'Products' : 'Categories';
 
   const onHandleSelectCategory = ({ categoryId, color }) => {
-    setSelectedCategory({ categoryId, color });
+    setSelectedCategory({ categoryId, color });  
     setIsCategorySelected(!isCategorySelected);
   };
   const onHandleNavigate = () => {
