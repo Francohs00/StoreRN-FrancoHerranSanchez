@@ -3,24 +3,24 @@
         "id": 1,
         "name": "Pick-ups",
         "backgroundColor": "#6D6AA0",
-        "backgroundImage": ""
+        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/store-rn.appspot.com/o/pick-up.png?alt=media&token=0881b2cb-8613-4e4e-982c-cfdb24f0fcb8"
     },
     {
         "id": 2,
         "name": "Sedans",
         "backgroundColor": "#3EC2CC",
-        "backgroundImage": ""
+        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/store-rn.appspot.com/o/Sedan.png?alt=media&token=cab396c3-09d6-4d84-8152-c5a10fc4ee22"
     },
     {
         "id": 3,
         "name": "Sports cars",
         "backgroundColor": "#0DAB6C",
-        "backgroundImage": ""
+        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/store-rn.appspot.com/o/Deportivo.png?alt=media&token=63e45567-5040-48ee-91a9-34da2f9a31d5"
     },
     {
         "id": 4,
         "name": "Motorcycles",
         "backgroundColor": "#EC5B67",
-        "backgroundImage": ""
+        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/store-rn.appspot.com/o/Moto.png?alt=media&token=479cddf0-8888-4253-aedb-357c9197cff1"
     }
 ]
